@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.LogoLudo {
+  position: fixed;
+  margin: 10px;
+  width: 400px;
+  height: auto;
+}
+
+.estrelas {
+  position: absolute;
+  top: 15%;
+  display: flex;
+  flex-direction: row;
+  width: 5000px;
+}
+
+.chao {
+  position: absolute;
+  bottom: 5%;
+  margin-bottom: 25px;
+  width: 5000px;
+  z-index: 2;
+}
+
+.chao1 {
+  background-color: #100911;
+  height: 10px;
+}
+
+.chao2 {
+  background-color: #121C14;
+  height: 12px;
+}
+
+.chao3 {
+  background-color: #162520;
+  height: 20px;
+}
+
+.chao4 {
+  background-color: #172B2A;
+  height: 30px;
+}
+
+.chao5 {
+  background-color: #163F43;
+  height: 50px;
+}
+
+.rodape {
+  position: fixed;
+  bottom: 0%;
+  height: 100px;
+  width: 2500px;
+  background-color: black;
+  z-index: 1;
+}
+
+.esquilo {
+  position: fixed;
+  bottom: 5%;
+  left: 80px;
+  width: 120px;
+  margin-bottom: 23px;
+  z-index: 3;
+}
+
+.texto1 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  left: 1000px;
+}

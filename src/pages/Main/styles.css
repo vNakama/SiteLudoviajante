@@ -1,0 +1,196 @@
+body {
+  background-color: black;
+  font-family: 'Cocogoose';
+}
+
+@font-face {
+  font-family: "Cocogoose Pro-trial";
+  src: url("../../assets/Cocogoose Pro-trial.ttf");
+}
+
+.LogoLudo {
+  position: fixed;
+  margin: 10px;
+  width: 500px;
+  height: auto;
+}
+
+.estrelas {
+  position: absolute;
+  top: 10%;
+  display: flex;
+  flex-direction: row;
+  width: 6850px;
+}
+
+.estrelas1 {
+  opacity: 0.7;
+}
+
+.chao {
+  position: absolute;
+  bottom: 5%;
+  margin-bottom: 25px;
+  width: 6850px;
+  z-index: 2;
+}
+
+.chao1 {
+  background-color: #100911;
+  height: 10px;
+}
+
+.chao2 {
+  background-color: #121C14;
+  height: 12px;
+}
+
+.chao3 {
+  background-color: #162520;
+  height: 20px;
+}
+
+.chao4 {
+  background-color: #172B2A;
+  height: 30px;
+}
+
+.chao5 {
+  background-color: #163F43;
+  height: 50px;
+}
+
+.rodape {
+  position: fixed;
+  bottom: 0%;
+  height: 100px;
+  width: 2500px;
+  background-color: black;
+  z-index: 1;
+}
+
+.esquilo {
+  position: fixed;
+  bottom: 5%;
+  left: 80px;
+  width: 120px;
+  margin-bottom: 23px;
+  z-index: 3;
+}
+
+.castelo {
+  position: absolute;
+  top: 40%;
+  left: 1000px;
+  width: 200px;
+  margin-bottom: 23px;
+}
+
+.texto1 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  width: 500px;
+  top: 58%;
+  left: 550px;
+}
+
+.texto2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  width: 800px;
+  top: 18%;
+  left: 2000px;
+}
+
+.videos {
+  display: flex;
+  margin-top: 40px;
+  width: 800px;
+  justify-content: space-between;
+}
+
+.video {
+  align-self: center;
+  width: 230px; 
+  margin-bottom: 5px;
+}
+
+.centralizar {
+  text-decoration: none;
+  color: white;
+  display: flex;  
+  font-size: 13px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.texto3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: left;
+  position: absolute;
+  width: 800px;
+  top: 18%;
+  left: 4000px;
+}
+
+.margem {
+  margin-top: 1px;
+}
+
+.titulo {
+  font-size: 30px;
+}
+
+.texto4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+  text-align: left;
+  position: absolute;
+  width: 800px;
+  top: 18%;
+  left: 6000px;
+}
+
+.margemTexto {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.apoiase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  background-color: #EB4A3B;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.loadscreen {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;  
+}
+
+.imgLoad {
+  width: 500px;
+}
