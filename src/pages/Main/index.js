@@ -36,7 +36,7 @@ class Main extends React.Component {
     
     return (
       <>
-        <div>
+        <div className = "logoResp">
           <img className = "LogoLudo" src = {Ludoviajante}/>
         </div>  
 
